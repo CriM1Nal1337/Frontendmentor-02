@@ -1,0 +1,86 @@
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+    background: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat no-repeat;
+    background-color: hsl(185, 75%, 39%);
+    background-position: top 200% right 160%, bottom 230% left 150%;
+}
+
+.main .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 375px;
+    width: 350px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.container .perfil{
+    display: flex;
+    height: 281.25px;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(../images/bg-pattern-card.svg) no-repeat top;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.perfil img{
+    border: white 5px solid;
+    border-radius: 70px;
+    margin-top: 70px;
+}
+
+.perfil h2{
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+
+.perfil span{
+    color: hsl(227, 10%, 46%);
+}
+
+.perfil p{
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+}
+
+hr{
+    width: 100%;
+}
+
+.about{
+    display: flex;
+    gap: 30px;
+    height: 93.75px;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about .follow,.likes,.photos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about span{
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+}
+
+.about p{
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+}
