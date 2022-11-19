@@ -1,14 +1,28 @@
+body{
+    background: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat no-repeat;
+    background-color: hsl(185, 75%, 39%);
+    background-position: top 201% right 162%, bottom 244% left 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 375px) {
+      body{
+        background-position: top 200% right -20%, bottom 200% left -20%;
+      }  
+}
+
 .main{
+    max-width: 1440px;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 18px;
     font-family: 'Kumbh Sans', sans-serif;
-    background: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
-    background-repeat: no-repeat no-repeat;
-    background-color: hsl(185, 75%, 39%);
-    background-position: top 200% right 160%, bottom 230% left 150%;
+    
 }
 
 .main .container{
@@ -31,8 +45,8 @@
     align-items: center;
     flex-direction: column;
     background: url(../images/bg-pattern-card.svg) no-repeat top;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 .perfil img{
