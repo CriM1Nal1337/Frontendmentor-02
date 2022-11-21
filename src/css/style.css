@@ -6,6 +6,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 @media (max-width: 375px) {
@@ -20,7 +21,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 18px;
     font-family: 'Kumbh Sans', sans-serif;
     
 }
@@ -38,7 +38,7 @@ body{
 
 .container .perfil{
     display: flex;
-    height: 281.25px;
+    height: 80%;
     gap: 10px;
     width: 100%;
     justify-content: center;
@@ -55,13 +55,14 @@ body{
     margin-top: 70px;
 }
 
-.perfil h2{
+.perfil h1{
     font-weight: 700;
     color: hsl(229, 23%, 23%);
 }
 
 .perfil span{
     color: hsl(227, 10%, 46%);
+    font-weight: 400;
 }
 
 .perfil p{
@@ -75,10 +76,9 @@ hr{
 
 .about{
     display: flex;
-    gap: 30px;
-    height: 93.75px;
+    height: 20%;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
